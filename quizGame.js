@@ -75,4 +75,13 @@ if(question8===answer8){
 else{
     console.log("wrong Answer")
 }
+const question9=prompt("which is the most powerfull piece in the chess");
+const  answer9 = "queen" || "Queen" || "QUEEN";
+if(question9===answer9){
+    console.log("The answer is correct")
+    correctAnswers=correctAnswers+1;
+}
+else{
+    console.log("wrong Answer")
+}
 console.log(`You have answered ${correctAnswers}  questions correctly`)
